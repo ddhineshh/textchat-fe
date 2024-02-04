@@ -1,0 +1,49 @@
+
+.login-bg{
+    background-image: url('https://img.freepik.com/free-vector/mention-concept-illustration_114360-231.jpg?w=740&t=st=1678261977~exp=1678262577~hmac=2f7653813149cf4fec87e5e0cc3dc5216d104318669c76ef5a7b8ba8668b8606');
+    height: 90vh;
+    background-position: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.form-input{
+    width: 300px !important;   
+}
+ 
+  .form-control:focus {
+    box-shadow: none !important;
+    border-color: #29262c !important;
+  }
+  .signup-bg{
+    background-image: url('https://img.freepik.com/free-vector/secure-data-concept-illustration_114360-2510.jpg?w=740&t=st=1678263200~exp=1678263800~hmac=272bd87942e0efac076e638d43612f55a7763810620f224b08ddeb4c28c83b7c');
+    height: 80vh;
+    background-position: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.signup-profile-pic__container{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+.signup-profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(36, 35, 35);
+  object-fit: cover;
+  height: 100px;
+}
+
+.add-picture-icon {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: green;
+  background: white;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 20px;
+}

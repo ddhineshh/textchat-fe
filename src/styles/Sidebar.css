@@ -1,0 +1,244 @@
+.member-status-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-status {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.sidebar-online-status {
+    color: green;
+}
+
+.sidebar-offline-status {
+    color: #e3b505;
+}
+
+.sidebar-offline-status,
+.sidebar-online-status {
+    font-size: 11px;
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 12px;
+}
+
+
+/* new css */
+.header{
+    width: 100%;
+    background: #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px 20px;
+}
+.userImg{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.nav-icons li{
+    
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.chatlist{
+    position: relative;
+    height: calc(100%-100px);
+    overflow-y:auto;
+}
+.chatlist .block{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.chatlist .block .imgBox{
+    position: relative;
+    width: 45px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.chatlist .block .details{
+    position: relative;
+    width: 100%;
+}
+.chatlist .block .details .listHand{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+/* peoples list css */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+:root {
+  --green: #86BB71;
+  --blue: #94C2ED;
+  --orange: #E38968;
+  --gray: #92959E;
+}
+
+
+.container-fluid {
+  margin: 0 auto;
+  background: #444753;
+  border-radius: 5px;
+  padding: 0;
+}
+
+#chat-wrapper {
+  overflow: hidden;
+}
+
+.people-list {
+  width: 260px;
+  float: left;
+}
+
+.people-list .search {
+  position: relative;
+  padding: 20px;
+}
+
+.people-list input {
+  border-radius: 3px;
+  border: none;
+  padding: 14px;
+  color: white;
+  background: #6A6C75;
+  width: 100%;
+  font-size: 14px;
+}
+
+.people-list .fa-search {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+}
+
+.people-list ul {
+  padding: 20px;
+  height: 665px;
+  overflow-y: auto;
+  margin-bottom: 0;
+}
+
+.people-list ul li {
+  padding: 5px;
+  padding-bottom: 10px;
+  border-radius: 2.5px;
+}
+
+.people-list ul li .active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.people-list img {
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+
+.people-list .about {
+  float: left;
+  margin-top: 8px;
+  padding-left: 8px;
+}
+
+.people-list .status {
+  color: var(--gray);
+}
+
+.chat-holder {
+  position: relative;
+}
+
+.chat-holder .chat-header {
+  padding: 10px;
+  padding-left: 5px;
+  border-bottom: 2px solid white;
+}
+
+.chat-holder .chat-header i.fa-bars {
+  display: none;
+  position: relative;
+  padding: 12.5px 12.5px;
+  margin-top: 15px;
+  color: #fff;
+  z-index: 1000;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+  border-radius: 100%;
+  transition: 0.3s ease-in;
+}
+
+.chat-holder .chat-header i.fa-bars:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 51, 51);
+}
+
+.chat-holder .chat-header i.fa-bars.visible {
+  display: block !important;
+}
+
+.chat-holder .chat-header img {
+  float: left;
+}
+
+.chat-holder .chat-header .chat-about {
+  float: left;
+  padding-left: 10px;
+  margin-top: 6px;
+}
+
+.chat-holder .chat-header .chat-with {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.chat-holder .chat-header .chat-num-messages {
+  color: var(--gray);
+}
+
+.chat-holder .chat-header .fa-star {
+    float: right;
+    color: #ffd700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .chat-holder .chat-header .fa-star:hover {
+    transform: scale(1.2);
+  }
+  

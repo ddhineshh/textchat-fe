@@ -1,0 +1,8 @@
+.home-bg{
+    background-image: url('https://img.freepik.com/free-vector/messaging-concept-illustration_114360-1326.jpg?w=740&t=st=1678252894~exp=1678253494~hmac=7c9cdbd0eb316edb4befed8e6ec60f05a4c6d6a8cde3d43d207c90948c2b6a55');
+    height: 90vh;
+    background-position: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
